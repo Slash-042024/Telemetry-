@@ -6,12 +6,16 @@ public class Main {
 
         Equipment loader1 = new Equipment("CAT-001", "988k", 300);
         Equipment loader2 = new Equipment("CAT-003", "523k", 250);
+        Equipment loader3 = new Equipment("CAT-004", "254k", 250);
 
         System.out.println("CAT-001:");
         printMaintenanceStatus(loader1, serviceInterval);
 
         System.out.println("CAT-003:");
         printMaintenanceStatus(loader2, serviceInterval);
+
+        System.out.println("CAT-004:");
+        printMaintenanceStatus(loader3, serviceInterval);
     }
 
     public static void printMaintenanceStatus(
